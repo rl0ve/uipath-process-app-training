@@ -1,7 +1,7 @@
 {
   "name": "UiPath Process App Training",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npm install",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm ci",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,5 +11,8 @@
       ]
     }
   },
-  "forwardPorts": [5173]
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": { "label": "Vite", "onAutoForward": "openBrowser" }
+  }
 }
