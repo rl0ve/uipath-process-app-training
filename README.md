@@ -2,7 +2,23 @@
 
 A sample React TypeScript application for managing UiPath Maestro processes with OAuth authentication.
 
-> This app uses the recommended modular import pattern for better performance and smaller bundle sizes. For the single-package import pattern, see [process-app-v0](../process-app-v0).
+# Simplified Instructions in Codespaces
+
+# UiPath Process App SDK Training
+
+This repo is a simplified copy of the `process-app-v1` sample from the UiPath TypeScript SDK, prepared for training in GitHub Codespaces.
+
+## Getting started in the workshop
+
+1. Fork this repository to your own GitHub account.
+2. In your fork, click the green **Code** button and choose **Create codespace on main**.
+3. Wait for the Codespace to finish provisioning. It will automatically run `npm install` inside the container.
+4. In the terminal inside Codespaces, run:
+
+   ```bash
+   npm run dev
+
+# Detailed Instructions in another IDE
 
 ## SDK Usage
 
